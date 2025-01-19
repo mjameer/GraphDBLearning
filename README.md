@@ -1,5 +1,20 @@
 # GraphDBLearning
 
+### Select 
+```
+match(py:PLAYER) 
+where py.name ="LeBron James"
+return py
+```
+or
+```
+match(py:PLAYER {name:"LeBron James"}) 
+return py
+```
+
+
+
+
 Learning, so starting with relevent reference 
 
 ### Reference 
