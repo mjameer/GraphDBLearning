@@ -1,6 +1,7 @@
 
 # Neo4j (Graph Database) Quick Learning
 
+<img width="1007" alt="image" src="https://github.com/user-attachments/assets/83ce7bc7-1985-4cdc-b92f-a37ef01752c6" />
 
 ---
 
