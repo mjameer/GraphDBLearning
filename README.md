@@ -1,13 +1,13 @@
 
 # Neo4j (Graph Database) Quick Learning
 
-<img width="1007" alt="image" src="https://github.com/user-attachments/assets/83ce7bc7-1985-4cdc-b92f-a37ef01752c6" />
-
 ---
 
 ## 1. What is Neo4j?
 - Neo4j is a native graph database that uses **nodes** and **relationships** to represent and store data.
 - It is ideal for connected data scenarios such as social networks, recommendation engines, fraud detection, and knowledge graphs.
+
+<img width="1007" alt="image" src="https://github.com/user-attachments/assets/83ce7bc7-1985-4cdc-b92f-a37ef01752c6" />
 
 ---
 
@@ -174,6 +174,7 @@ CALL apoc.help('text')
 ---
 
 ## Resources
+- [Cheet sheet](https://neo4j.com/docs/cypher-cheat-sheet/5/all/)
 - [Official Documentation](https://neo4j.com/docs/)
 - [Cypher Reference Card](https://neo4j.com/docs/cypher-refcard/current/)
 - [Neo4j GraphAcademy](https://neo4j.com/graphacademy/)
