@@ -162,32 +162,13 @@ CALL apoc.help('text')
 ### Spatial and Temporal Queries
 - Query geo-spatial and time-based data effectively.
 
-### Integration
-- Java developers can use the Neo4j Java driver.
-```java
-Driver driver = GraphDatabase.driver("bolt://localhost:7687", AuthTokens.basic("user", "password"));
-try (Session session = driver.session()) {
-    String query = "MATCH (p:Person) RETURN p.name";
-    session.run(query).forEachRemaining(record -> System.out.println(record.get("p.name").asString()));
-}
-```
 
 ---
 
-## 8. Preparing for the Interview
-
-### Technical Knowledge
-- Master Cypher queries, graph schemas, indexing, and constraints.
 
 ### Use Case Knowledge
-- Prepare examples for:
   - Social network analysis.
   - Recommendation systems.
-  - Data relationship analysis.
-
-### Hands-On Practice
-- Use Neo4j Sandbox or Desktop to build a small graph model.
-- Practice querying and analyzing the data.
 
 ---
 
@@ -198,11 +179,6 @@ try (Session session = driver.session()) {
 
 ---
 
-
-
-
-Learning, so starting with relevent reference 
-
 ### Reference 
 
 - [Springboot neo4j integration](https://www.youtube.com/watch?v=LjtcrWkC0-E)
@@ -211,4 +187,4 @@ Learning, so starting with relevent reference
 - [Springboot Neo4K](https://www.youtube.com/watch?v=GerN3MGm9Js)
 - [Google - Understanding graph databases with Neo4j](https://www.youtube.com/watch?v=gojEIojo7-I&t=71s)
 - [why Graph Databases is so Fast](https://www.youtube.com/watch?v=Sdw_D-Gllac)
-- [java techie](https://www.youtube.com/watch?v=RjEK3Q6GMzw)
+- [java techie springboot neo4j integration](https://www.youtube.com/watch?v=RjEK3Q6GMzw)
