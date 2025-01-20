@@ -122,7 +122,7 @@ WHERE a.name = 'Alice' AND c.name <> 'Alice'
 RETURN c.name
 ```
 > [!NOTE]
-> Added as it was difficult to understand whats happening initially. 
+> Added as it was difficult to understand whats happening initially.
 > (a:Person): Matches a node with the label Person. This node represents the person named Alice.
 > [:FRIENDS_WITH]: Matches relationships labeled FRIENDS_WITH. These are the connections between friends.
 (b:Person): Represents friends of Alice.
